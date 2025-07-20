@@ -9,11 +9,11 @@ int main(int argc, char **argv) {
   ros::NodeHandle n;
 
   ros::Publisher pub =
-      n.advertise<superbai::sample::PublishInfo>("/Sorbai", 1000);
+      n.advertise<caizilong::sample::PublishInfo>("/Sorbai", 1000);
 
   ros::Rate loop_rate(10);
   
-  superbai::sample::PublishInfo proto_msg_info;
+  caizilong::sample::PublishInfo proto_msg_info;
   proto_msg_info.set_name("sorbai");
   proto_msg_info.set_message_type("test_message");
   proto_msg_info.set_publish_msg("sorbai is a bilibili up");

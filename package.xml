@@ -3,8 +3,8 @@
   <name>myproject</name>
   <version>0.0.0</version>
   <description>proto sample package</description>
-  <maintainer email="superbai@qq.com">superbai</maintainer>
-  <license>superbai license</license>
+  <maintainer email="caizilong@qq.com">caizilong</maintainer>
+  <license>caizilong license</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
   <run_depend>roscpp</run_depend>

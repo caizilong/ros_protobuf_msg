@@ -1,7 +1,7 @@
 #include <iomanip>
 #include <iostream>
 
-#include "superbai.pb.h"
+#include "caizilong.pb.h"
 
 void PrintHex(const std::string& str) {
   for (const unsigned char c : str) {
@@ -13,7 +13,7 @@ void PrintHex(const std::string& str) {
 
 int main() {
   // std::string pb_str;
-  // superbai::sample::RosProtoTest proto_test;
+  // caizilong::sample::RosProtoTest proto_test;
   // 0801
   // 0000 1000 0000 0001
   // tag-value
@@ -41,13 +41,13 @@ int main() {
   // value:01110011 ---115   s
   // 0111 0101 ---117 u
 
-  // proto_test.set_name("superbai");
+  // proto_test.set_name("caizilong");
   // proto_test.SerializeToString(&pb_str);
   // PrintHex(pb_str);
 
   std::string des;
   const google::protobuf::Descriptor* descriptor =
-      superbai::sample::RosProtoTest::descriptor();
+      caizilong::sample::RosProtoTest::descriptor();
   for (int i = 0; i < descriptor->field_count(); ++i) {
     const google::protobuf::FieldDescriptor* field = descriptor->field(i);
 

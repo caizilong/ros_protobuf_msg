@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package superbai.sample;
+package caizilong.sample;
 
 
 message RosProtoTest {
@@ -10,7 +10,7 @@ message RosProtoTest {
   repeated string n = 100;
 }
 
-// message Superbai {
+// message caizilong {
 //   int32 a = 1;
 //   string b = 2;
 // }

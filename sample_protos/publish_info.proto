@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package superbai.sample;
+package caizilong.sample;
 
 message PublishInfo {
     string name= 1;

@@ -37,17 +37,17 @@
  */
 // %Tag(CALLBACK)%
 // void chatterCallback(
-//     const boost::shared_ptr<superbai::sample::PublishInfo> &msg) {
+//     const boost::shared_ptr<caizilong::sample::PublishInfo> &msg) {
 //   std::cerr << "I heard: " << msg->DebugString() << std::endl;
 //   std::string def =
-//       ros::message_traits::Definition<superbai::sample::PublishInfo>::value();
+//       ros::message_traits::Definition<caizilong::sample::PublishInfo>::value();
 //   std::cout << "def: " << def << std::endl;
 // }
 void chatterCallback(
-    const ros::MessageEvent<superbai::sample::PublishInfo> &msg) {
+    const ros::MessageEvent<caizilong::sample::PublishInfo> &msg) {
   std::cerr << "I heard: " << msg.getMessage()->DebugString() << std::endl;
   std::string def =
-      ros::message_traits::Definition<superbai::sample::PublishInfo>::value();
+      ros::message_traits::Definition<caizilong::sample::PublishInfo>::value();
   std::cout << "def: " << def << std::endl;
 }
 // %EndTag(CALLBACK)%
